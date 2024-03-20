@@ -31,4 +31,11 @@ h3{
 .bilgi{
     color:white;
     font-size: 18px;
+    font-weight:bold;
+}
+
+.buton{
+    color:rgb(185, 165, 221);
+    font-size: 25px;
+    font-weight:bold;
 }

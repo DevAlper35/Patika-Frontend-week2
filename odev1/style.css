@@ -7,6 +7,7 @@ body {
     margin-right: 100px;
     background-attachment: fixed;
     font-family:'Courier New', Courier, monospace;
+    align-tracks: center;
 }
 
 h1{

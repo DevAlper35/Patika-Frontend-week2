@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    background-image: url("img/gitar.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1{
+    color:#fcfbfb;
+    font-size: 80px;
+    
+}
+
+h2{
+    color: #DAD4B5;
+    font-size: 50px;
+}
+
+
+
+h3{
+    color: #FFBB5C;
+    font-size: 20px;
+}
+
+.bilgi{
+    color:white;
+    font-size: 18px;
+}

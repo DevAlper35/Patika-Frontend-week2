@@ -13,14 +13,12 @@ body {
 h1{
     color:#fcfbfb;
     font-size: 80px;
-    
 }
 
 h2{
     color: #DAD4B5;
     font-size: 50px;
 }
-
 
 
 h3{
@@ -38,4 +36,62 @@ h3{
     color:rgb(185, 165, 221);
     font-size: 25px;
     font-weight:bold;
+}
+
+a{
+    margin:10pc;
+}
+
+nav div{
+
+    margin:10pc;
+}
+
+img {
+    width: 400px; /* Genişlik */
+    border: 5px solid;  /* Çizgi kalınlığı */
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.fix-div{
+    
+    background-color: rgba(155, 124, 213, 0.95); /* 4.parametre saydamlık oranını belirtiyor*/
+    /*position: fixed;*/
+    /* responsive tasarım */
+    margin-left: 2vw;  /* tam sayfanın genişliğinin 2vw(v Widht) 2vh (v Height)*/
+    border:10px solid;
+    border-color: white;
+    border-radius: 25px;
+    /*top:5px;*/
+    width: 30%; /* vw aleternatif kullanılıyor araştır*/
+    /* position: sticky; /* divin sonuna kadar */
+}
+
+.fix-div1 {
+    background-color: rgba(155, 124, 213, 0.95); /* 4.parametre saydamlık oranını belirtiyor*/
+    /*position: fixed;*/
+    margin-left: 2%;
+    border:10px solid;
+    border-color: white;
+    border-radius: 25px;
+    /*top:5px;*/
+    width: 30%;
+}
+
+.fix-div2 {
+    background-color: rgba(155, 124, 213, 0.95); /* 4.parametre saydamlık oranını belirtiyor*/
+    /*position: fixed;*/
+    margin-left: 2vw;
+    border:10px solid;
+    border-color: white;
+    border-radius: 25px;
+    /*top:5px;*/
+    width: 30%;
+}
+
+.fix-div a {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

@@ -37,10 +37,11 @@ body {
     background-color: rgb(62, 62, 62);
     padding: 10px;
     text-decoration: none;
-    margin: 10px 250px;
+    margin: 10px 2vw;
     border-radius: 10px;
     border: 2px solid;
-    display:block;
+    display:inline-block;
+
 }
 
 img {
@@ -63,4 +64,9 @@ img {
     padding: 5px 20px;  
     border-radius: 20px;
     border: 2px solid;
+}
+
+.icerik div{
+    display: inline-block;
+    width: 280px;
 }

@@ -1,0 +1,66 @@
+body {
+    background-image: url(img/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.baslik {
+    margin: 0, auto;
+    text-align: center;
+    
+    
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.283);
+    text-align: center;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    padding: 20px;  
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+.menu a:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    color: #202124; 
+}
+
+.menu a{
+    color: azure;
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 250px;
+    border-radius: 10px;
+    border: 2px solid;
+    display:block;
+}
+
+img {
+    margin: 0 auto;
+    object-fit: cover;
+    
+    width: 150px;
+    height: 160px;
+    border-radius: 20px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.icerik{
+    background-color: rgba(255, 255, 255, 0.283);
+    text-align: center;
+    width: 80%;
+    height: 30%;
+    margin: 20px auto;
+    padding: 5px 20px;  
+    border-radius: 20px;
+    border: 2px solid;
+}

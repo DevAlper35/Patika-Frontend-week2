@@ -55,7 +55,19 @@ img {
     overflow: hidden;
 }
 
+.icerik img {
+    margin: 0 10px;
+    object-fit: cover;
+    
+    width: 300px;
+    height: 310px;
+    border-radius: 20px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
 .icerik{
+    font-size: 20px;
     background-color: rgba(255, 255, 255, 0.283);
     text-align: center;
     width: 80%;
@@ -65,6 +77,7 @@ img {
     border-radius: 20px;
     border: 2px solid;
 }
+
 
 .icerik div{
     display: inline-block;
